@@ -34,8 +34,8 @@ def show_playlist():
     try:
         sp = spotipy.Spotify(auth=access_token)
     except:
-        client_id = '76dc13fd61724db2b90c395de1ada189'
-        client_secret = '84d95362cc1742b19951408699b269b2'
+        # client_id
+        # client_secret
 
         grant_type = 'client_credentials'
         body_params = {'grant_type' : grant_type}
